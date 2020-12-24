@@ -23,6 +23,10 @@ a:hover{
 .btn-success:hover{
   background-color: #549d78!important;
 }
+.file-btn{
+  background: #EDF4EE;
+  width: 195px;}
+
 .slider{
   max-width: 300px;
   background: #EDF4EE;
@@ -36,18 +40,29 @@ a:hover{
   height: 40px;
   border-radius: 50px;
 }
-
+.user span{
+  background-color: ##EDF4EE;
+  color: #2a8356;
+}
 p{
   padding: 0px;
   margin:  0px;
 }
-
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid #edf4ee;
+}
+.border-color{
+  border-bottom: 1px solid #edf4ee!important ;
+}
 .list-item{
   display: block;
   border: 1px solid #CDDDCD;
   padding: 18px;
 }
-.ass-title,.ass-time,.ass-name{
+.ass-title,.ass-time,.ass-name,.comment{
   font-size: 12px;
 }
 .ass-name{
